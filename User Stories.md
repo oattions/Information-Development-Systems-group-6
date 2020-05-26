@@ -16,11 +16,13 @@ As a relationship manager I would like the customer’s profile or desired holid
 ## US02: 
 As a relationship manager I would like customers to be filtered by how likely they are to buy a package so I can waste less time on customers who won’t purchase a package, and spend more time selling packages to customers who will. 
 **Estimate:** 
-     
+     3 Story Points
 **Priority :** 
-    Priority : H M L 
+    Priority : M 
 **Acceptance Criteria :**  
-    STUFF
+>* Customers are given a score of 1 - 10 indicating their likelihood to purchase the product based on preloaded criteria of : postcode, how many times they've previously purchased a package from the company, how many calls they've previously made (without purchasing a package) and other demographic parameters. 
+>* Customers in an inbound call queue are prioritised based on score. Customers with higher scores will always be served before customers with lower scores. 
+>* Customers in a targetted outbound call list are sorted in descending order by their score so that customers with a higher score are called first. 
 
 ## US03: 
 As a relationship manager I would like a system that automatically dials the next customer on my target list so I can waste less time manually inputting a number and dialing it.
