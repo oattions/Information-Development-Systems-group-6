@@ -69,14 +69,14 @@ These are assumptions about the previous system which justify the need for a new
 >* Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
 >* Previously generated target lists do not take into account customer parameters before being given to an RM.
 
-###General 
+###General (applies to both current and previous system ) 
 >* Old system only provided the original hiring questionnaire and did not adjust based on skills. 
 >* Skill profiles did not exist , so relationship managers could not be matched with their end customers based on knowledge. 
 >* Customers were not given points based on likelihood to purchase. 
 >* RMs were not given a score based on performance.
-
-###Current and  previous assumptions
 >* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
+>*Call routing branch operators do not exclusively handle RM rerouting. They also handle routing customers to other parts of the company.  
+
 --
 #System Proposal
 
