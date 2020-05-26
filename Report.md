@@ -75,7 +75,7 @@ These are assumptions about the previous system which justify the need for a new
 >* Customers were not given points based on likelihood to purchase. 
 >* RMs were not given a score based on performance.
 >* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
->*Call routing branch operators do not exclusively handle RM rerouting. They also handle routing customers to other parts of the company.  
+>* Call routing branch operators do not exclusively handle RM rerouting. They also handle routing customers to other parts of the company.  
 
 --
 #System Proposal
