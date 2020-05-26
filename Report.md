@@ -51,9 +51,20 @@
 #Project Approach
 
 ##Design and Planning Approach
-                Describe your approach from a design thinking principles perspective
-                Explain the agile methodology, namely, Scrum, you have used to carry out the procedure. In your explanation, ensure that you outline activities from Scrum that you use 
 
+Describe your approach from a design thinking principles perspective
+                Explain the agile methodology, namely, Scrum, you have used to carry out the procedure. In your explanation, ensure that you outline activities from Scrum that you use 
+### Iteration one reflection 
+    A major travel company is looking to improve its  information system by upgrading the existing Call Management Center(CMC). It is assumed that the current CMC is inefficient as it matches customers with relationship managers based on availability rather than skills and expertise. Moreover, inbound and outbound calls were not managed effectively by giving customers with higher scores based upon demographics( repeat customers, postcode, gender, age..) a higher priority and quicker response which may have resulted in lowered customer satisfaction and consequently lower sales. Furthermore, During busy times, customers were put on hold which would have prompted them to hang up and refrain from using the service again due to the long call handling time, 
+    Therefore, there is a need for a new information system which is able to match customers with relationship managers based on their profiles which states their ranking, knowledge and skills as in-depth knowledge about a product is required to make a sale. To add on, the new system will direct the customers on hold to an interactive voice unit thus keeping them engaged and reducing call time. The list of customers can then be sorted by priority order according to predetermined criteria and matched with a relationship manager. 
+    Point of View statements were used to allow for different perspectives of the users to be raised allowing for weaknesses in the existing system to be detected. This was then used to create How Might We(HMW) statements and then user stories to suggest improvements for the new system. 
+    Example 
+     POV:  RM: “I wish I didn’t have to waste time calling customers who would’ve never bought a package anyway” 
+    HMW:  How might we… Let Relationship Managers speak to less customers who are less likely to buy a package, and more customers who are likely to buy a package. 
+    US: As a relationship manager I would like customers to be filtered by how likely they are to buy a package so I can waste less time on customers who won’t purchase a package, and spend more time selling packages to customers who will. 
+    The above example identifies that in the existing system relationship managers spoke to all customers instead of filtering them based on likelihood to purchase the product resulting in longer call handling time. 
+
+                D
 
 
 ##Assumptions
