@@ -9,9 +9,7 @@ A major travel company is looking to improve its  information system by upgradin
 >* Improve the operation of their in-house call management center (CMC)
 >* Assist Relationship Managers (RMs) in serving their end customers (and new potential customers)
 >* Increase the efficiency of RM correspondences with customers, and increases the quality of the service provided (and the chances to achieve a sale)
->* Match RMs with customers according to RM skills and customer profiles, wherein an RMs skill profile is dynamically updated after being informed by data from each correspondence. 
-
-
+>* Match RMs with customers according to RM skills and customer profiles, wherein an RMs skill profile is dynamically updated after being informed by data from each correspondence
 ##Functional Requirements
 >* Matches customers based on RM performance and product knowledge 
 >* Customers are segmented into social and cultural groups according to postcodes and surnames. 
@@ -29,20 +27,7 @@ A major travel company is looking to improve its  information system by upgradin
 >* When the line is fairly busy, inbound customers will be redirected to an interactive voice response unit prompting them for options
 >* The Interactive voice REsponse Unit will ask for call reasons in a few words, and then redirect the call to the automatic call distributor which will route the call to the first available appropriate RM. 
 
-                Questions + Things That were Too Vague pertaining to the requirements in the case study 
-
-                +What sort of data does the original database (where the customer's information was pulled from) have? (eg. does it mention the customer's age, sex, income bracket, etc. or do we only have access to post code and full name?)
-                +How will surnames be sorted into cultures? What if it is a surname shared across cultures? (eg. lee)
-                +How will an RM's product knowledge be calculated? Are we able to determine product knowledge from raw numbers? 
-                +Will the calculated RM's skill score be calculated based on whether they achieved a sale in the call or not? Will inbound and outbound calls be weighted differently? 
-                +Will a customer be put on two RM's target lists at the same time? 
-                +If the system prioritises customers with higher scores in regards to inbound calls, then would it be possible for a customer to be waiting forever (because of their low score, and having being matched with a 'popular' RM) if people who called after them were prioritised over them?  How would this be reconciled. -- does this mean that customers with low scores will be given to RMs with high scores (a higher chance to 'convert' the customer) or RMs with low scores (to 'waste time' with together while leaving the good RMs free) 
-                +How will a proposed product be determined for a target customer? * the specs currently only mentions matching customers and RMs, but not customers and packages.
-                +How will the data from the 'call reason' be processed? will there need to be manual data entry to recategorise the customer's profile? 
-                +How busy will the line have to be before the customer is directed to the interactive voice response unit?  
-
-
-##Stakeholders
+## Stakeholders
                 Identify stakeholders
 >* Travel Company Representative (product owner)
 >* Relationship Manager (end user)
@@ -51,13 +36,11 @@ A major travel company is looking to improve its  information system by upgradin
 
 
 ----
-#Project Approach
+# Project Approach
 
-##Design and Planning Approach
+## Design and Planning Approach
 
-Describe your approach from a design thinking principles perspective
-                Explain the agile methodology, namely, Scrum, you have used to carry out the procedure. In your explanation, ensure that you outline activities from Scrum that you use 
-### Iteration one reflection 
+### Design Thinking Reflection 
 
     
 We assumed that the current CMC is inefficient as it matches customers with relationship managers based on availability rather than skills and expertise. 
@@ -79,26 +62,27 @@ This example identifies that in the existing system, relationship managers spoke
 
 
 
-##Assumptions
+## Assumptions
             
 These are assumptions about the previous system which justify the need for a new improved system 
 
 ###Inbound Calls
->* All inbound calls were met with a human operator  who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. 
->* During busy times customers were put on hold and were not directed to an interactive voice response unit. 
->* Previous inbound calls were not directed to specific RMs and were given to soonest available RM.
+* All inbound calls were met with a human operator  who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. 
+* During busy times customers were put on hold and were not directed to an interactive voice response unit. 
+* Previous inbound calls were not directed to specific RMs and were given to soonest available RM.
 
 ###Outbound Calls
->* Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
->* Previously generated target lists do not take into account customer parameters before being given to an RM.
+* Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
+* Previously generated target lists do not take into account customer parameters before being given to an RM.
 
 ###General (applies to both current and previous system ) 
->* Old system only provided the original hiring questionnaire and did not adjust based on skills. 
->* Skill profiles did not exist , so relationship managers could not be matched with their end customers based on knowledge. 
->* Customers were not given points based on likelihood to purchase. 
->* RMs were not given a score based on performance.
->* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
->* Call routing branch operators do not exclusively handle RM rerouting. They also handle routing customers to other parts of the company.  
+* Old system only provided the original hiring questionnaire and did not adjust based on skills. 
+* Skill profiles did not exist , so relationship managers could not be matched with their end customers based on 
+knowledge. 
+* Customers were not given points based on likelihood to purchase. 
+* RMs were not given a score based on performance.
+* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
+* RMs 
 
 --
 #System Proposal
