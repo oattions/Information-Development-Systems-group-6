@@ -154,7 +154,7 @@ As a **product owner** I would like the system to determine the size of the targ
 * A larger target list is given to RMs with higher scores 
 
 
-##US305
+## US305
 As a **product owner** I would like to have the system match customers based on RM performance and product knowledge
 
 **Estimate:** 5 Story Points
