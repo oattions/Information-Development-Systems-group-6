@@ -2,6 +2,9 @@
 #Project Overview
 
 ##Objectives
+
+A major travel company is looking to improve its  information system by upgrading the existing Call Management Center(CMC). 
+
                 outline the project and define the problem
 >* Improve the operation of their in-house call management center (CMC)
 >* Assist Relationship Managers (RMs) in serving their end customers (and new potential customers)
@@ -51,22 +54,53 @@
 #Project Approach
 
 ##Design and Planning Approach
-                Describe your approach from a design thinking principles perspective
+
+Describe your approach from a design thinking principles perspective
                 Explain the agile methodology, namely, Scrum, you have used to carry out the procedure. In your explanation, ensure that you outline activities from Scrum that you use 
+### Iteration one reflection 
+
+    
+We assumed that the current CMC is inefficient as it matches customers with relationship managers based on availability rather than skills and expertise. 
+We also assumed that the previous system had no scoring system, hence, did not prioritise customers with higher likelihoods of purchasing above customers who would otherwise never purchase. This would have been exacerbated by the fact that during busy times, customers were put on hold which would have prompted them to hang up and refrain from using the service again due to the long call handling time. 
+
+Furthermore, it is also assumed that in both the pre-existing and newly proposed system that a customer could be calling the travel company's customer support line for reasons apart from holiday package enquiry. This raises the need for a customer to be redirected to a relationship manager from a call routing branch operator; The workload of whom will be drastically reduced by the proposed interactive voice unit in the new system. 
+
+The process of designing the new system utilised 'Point of View' statements which allowed for the close exmination of the perspectives of different users. These empathy statements allowed us to identify weaknesses in the existing system, and hence, facilitated for the creation of How Might We (HMW) statements, which formed the basis of the User Stories which formed the foundation for the newer, more efficient system. 
+
+An example of this process is as follows : 
+>* POV:  RM: “I wish I didn’t have to waste time calling customers who would’ve never bought a package anyway” 
+>* HMW:  How might we… Let Relationship Managers speak to less customers who are less likely to buy a package, and more customers who are likely to buy a package. 
+>* Resulting User Story : As a relationship manager I would like customers to be filtered by how likely they are to buy a package so I can waste less time on customers who won’t purchase a package, and spend more time selling packages to customers who will. 
+
+This example identifies that in the existing system, relationship managers spoke to all possible incoming customers instead of customers whom had a higher likelihood of purchasing the product, which had resulted in longer, less productive call handling times, which would have greatly impacted the market share of the business. 
+
+    
+
 
 
 
 ##Assumptions
-                List assumptions you have made in the systems analysis.
->* a Profiler Tool to generate a customer profile already exists and will be utilised by the proposed system.
->* we are assumnig that a a database of all potential customers already exists to be profiled for outbound calls. 
->* We are assuming that the system will automatically readjust an RM's profile based on their performance following each call WITHOUT any human intervention (ie. the system takes raw data, and comes to a conclusion based on that- hence the profile will be adjusted accordingly. )
->* appended to the previous assumption -- the calculation will be a result of  whether a sale was made, the length of the call, and numeric rating values given by the customer following the call (if applicable- we are making an affordance for customers who do not bother rating). 
->* we are assuming that the guidelines and script provided to the RM will be dynamically generated based on the details in the customer's profile. (as opposed to a canned response chosen from a pile  )
->* we are assuming that this system is not responsible for rerouting inbound calls and only deals in data management (collection, display, parsing, etc.)
->* assuming that the estimated call duration will determine the size of an RM's outbound list 
+            
+These are assumptions about the previous system which justify the need for a new improved system 
 
-----
+###Inbound Calls
+>* All inbound calls were met with a human operator  who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. 
+>* During busy times customers were put on hold and were not directed to an interactive voice response unit. 
+>* Previous inbound calls were not directed to specific RMs and were given to soonest available RM.
+
+###Outbound Calls
+>* Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
+>* Previously generated target lists do not take into account customer parameters before being given to an RM.
+
+###General (applies to both current and previous system ) 
+>* Old system only provided the original hiring questionnaire and did not adjust based on skills. 
+>* Skill profiles did not exist , so relationship managers could not be matched with their end customers based on knowledge. 
+>* Customers were not given points based on likelihood to purchase. 
+>* RMs were not given a score based on performance.
+>* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
+>* Call routing branch operators do not exclusively handle RM rerouting. They also handle routing customers to other parts of the company.  
+
+--
 #System Proposal
 
 
