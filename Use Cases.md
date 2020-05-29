@@ -8,7 +8,7 @@
 **UC007 :** Create/ Update RM Profile
 **UC008 :** Update RM Score
 **UC009 :** Speak to IVR
-**UC010 :** Rate Experience 
+**UC010 :** Rate Experience git p
 **UC011 :** Dial Customer Automatically
 **UC012 :** Generate Customer Target List
 **UC013 :** Generate Script
