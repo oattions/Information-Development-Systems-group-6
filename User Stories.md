@@ -1,161 +1,169 @@
-# Relationship Managers 
+## US101
+As a **relationship manager** I want to be able to update the customer's profile so that I am able to make I am able to make generalizations of their pattern of purchases for future marketing/outbound calls
 
-## US01: 
-As a relationship manager I would like the customer’s profile or desired holiday package to be matched to my skill profile before the call gets sent to me so I can answer their questions better.
-**Estimate:** 
-    5 Story Points
-**Priority :** 
-    Priority : H 
-**Acceptance Criteria :**  
->* Customer's profile is matched to an appropriate Relationship Manager's skill profile by the system prior to the call going through.
->* RM profiles sorted based on their age, sex, cultural background, language proficiency, experiences and product knowledge
->* Customer profiles are sorted based on their age, sex, cultural background and address
->* Customer profiles are assigned mostly likely desired holiday locations and most likely desired price ranges based on profile sorting. 
+**Estimate:** 2 Story Points
 
+**Priority:** M
 
-## US02: 
-As a relationship manager I would like customers to be filtered by how likely they are to buy a package so I can waste less time on customers who won’t purchase a package, and spend more time selling packages to customers who will. 
-**Estimate:** 
-     3 Story Points
-**Priority :** 
-    Priority : M 
-**Acceptance Criteria :**  
->* Customers are given a score of 1 - 10 indicating their likelihood to purchase the product based on preloaded criteria of : postcode, how many times they've previously purchased a package from the company, how many calls they've previously made (without purchasing a package) and other demographic parameters. 
->* Customers in an inbound call queue are prioritised based on score. Customers with higher scores will always be served before customers with lower scores. 
->* Customers in a targetted outbound call list are sorted in descending order by their score so that customers with a higher score are called first. 
+**Acceptance Criteria:**
 
-## US03: 
-As a relationship manager I would like a system that automatically dials the next customer on my target list so I can waste less time manually inputting a number and dialing it.
-**Estimate:** 
-    1 Story Points
-**Priority :** 
-    Priority : L 
-**Acceptance Criteria :**  
->* When a relationship manager logs in the system that they are going to be making outbound calls, the system automatically dials their first target customer.
->* When a relationship manager finishes writing up notes for their outbound call and clicks confirm, the system automatically dials the next customer. 
+* A relationship manager is able to update a customer's profile during a call's wrap up.  
 
-## US04: 
-As a relationship manager I would like to be provided with a specialised script to match a customer’s profile so I can know exactly what to say for each customer  
-**Estimate:** 
-    2 Story Points
-**Priority :** 
-    Priority : L 
-**Acceptance Criteria :**  
->* Customer profiles are sorted based on their demographic parameters 
->* A script template is chosen depending on which demographic a customer profile is sorted into 
->* The template is automatically filled based on the customer's parameters and shown to the relationship manager when the call is received. 
+## US102 
+As a **relationship manager** I want the customer's profile to be matched with packages they'll likely be interested in buying, so that I am better able to understand which packages I should be pitching to a customer
 
+**Estimate:** 4 Story Points
 
-## US05:
-As a relationship manager, I would like to speak to customers who belong to similar demographics(age, gender, cultural backgrounds)  to me so I can communicate and relate with them better. 
-**Estimate:** 
-    3 Story Points
-**Priority :** 
-    Priority : M 
-**Acceptance Criteria :**  
->* Customer's profile is matched to an appropriate Relationship Manager's profile by the system prior to the call going through.
->* RM profiles sorted based on their age, sex, cultural background, language proficiency, experiences and product knowledge
->* Customer profiles are sorted based on their age, sex, cultural background and address
+**Priority:** M
 
+**Acceptance Criteria:**
 
-## US06:
-As a relationship manager, I would like to speak to and target to the right customers with outbound calls so I can be more effective at convincing due to my expertise in the holiday package/destination. 
-**Estimate:** 
-    4 Story Points
-**Priority :** 
-    Priority : H 
-**Acceptance Criteria :**  
->* Customer profiles are sorted and matched with RM profiles based on their demographic parameters such as address, age, sex, cultural background, income bracket, etc. 
->* A unique target list of customers matching an RM's profile is generated for the RM prior to an outbound call shift. 
+* holiday packages are assigned to a customer's 'relevant packages' list based on the customer's profile. 
 
-# Customers
+## US103
+As a **relationship manager** I would like to be able to have customers segmented by culture, location and other social demographic parameters so I know how to interact with them for an increase chance to achieve a sale or provide a service 
 
-## US07:
-As a relationship manager, I would like to speak/target to the right customers with outbound calls so I can be more effective at convincing due to my expertise in the holiday package/destination. 
-**Estimate:** 
-    3 Story Points
-**Priority :** 
-    Priority : H 
-**Acceptance Criteria :**  
->* Customer's profile is matched to an appropriate Relationship Manager's profile by the system prior to the call going through.
->* RM profiles sorted based on their age, sex, cultural background, language proficiency, experiences and product knowledge
->* Customer profiles are sorted based on their age, sex, cultural background and address
+**Estimate:** 3 story Points
 
-## US08:
-As a cold called customer, I would like the subject matter of the call to be interesting to me so I can waste less time on a call that doesn’t concern me. 
-**Estimate:** 
-    2 Story Points
-**Priority :** 
-    Priority : M 
-**Acceptance Criteria :**  
->* Customer profiles are matched with a relationship manager's profile so that all outbound calls are for customers the relationship manager can pitch to easily. 
+**Priority:** S
 
-## US09: 
-As a customer, I would like to speak to Relationship Managers who have in-depth knowledge about the holiday package/s that I am interested in so that I am able to make an informed selection. 
-**Estimate:** 
-    2 Story Points
-**Priority :** 
-    Priority : H  
-**Acceptance Criteria :**  
->* Customer's profile is matched to an appropriate Relationship Manager's profile by the system prior to the call going through.
->* RM profiles sorted based on their age, sex, cultural background, language proficiency, experiences and product knowledge
->* Customer profiles are sorted based on their age, sex, cultural background and address
+**Acceptance Criteria:**
 
-## US10:
-As a customer who had already made a purchase from this company before, I would like to be able to expedite my call wait times so I can buy my next package sooner. 
-**Estimate:** 
-    3 Story Points
-**Priority :** 
-    Priority : H  
-**Acceptance Criteria :**  
->* Customers are given a score from 1 - 10 based on predetermined parameters like their demographic parameters (age, sex, location, etc.) and whether they've purchased packages before.
->* Customers with higher scores are prioritised and served first when inbound lines are fairly busy. 
+* Demographic groups are assigned to customers based on their social, locational, and cultural demographics. 
+
+## US104
+As a **relationship manager** I want to be able to have inbound customers directed to an Interactive Voice Response Unit when lines are busy so that we can understand what a customer is looking for without spending resources on interacting with the customer. 
+
+**Estimate:** 7 Story Points 
+
+**Priority:** M 
+
+**Acceptance Criteria:**
+
+* When lines are busy, all inbound calls are redirected to an Interactive Voice Response Unit. 
+* Interactive Voice Response Unit asks customer what package they're interested in and processes the information
+* Interactive Voice Response Unit asks customer why they called, and processes the information.
+* Interactive Voice Response Unit reroutes customer to next available RM that best matches the customer's profile and inquiry content. 
+
+## US201
+As a **Customer** I would like my inbound calls' handling time to be reduced so my inquiries are resolved faster. 
+
+**Estimate:** 4 Story Points
+
+**Priority:** S 
+
+**Acceptance Criteria:**
+
+* Average customer handling time is reduced 
+* Customers calls and inquiries are fielded to an appropriate and knowledgeable RM 
+
+## US202
+As an **Existing Customer** I would like to be matched with an RM that has a deep understanding of the specific package or location I'm calling about so that my queries can be resolved faster. 
+
+**Estimate:** 5 Story Points
+
+**Priority:** M 
+
+**Acceptance Criteria:**
+
+* Holiday Packages that an RM is suitable to pitch can be added to an RM's profile. 
+* The system automatically assigns holiday packages to RMs which have enough relevant skills and knowledge. 
+* The system automatically routes a customer to RMs who are assigned 
 
 
-# Product Owner
+## US203
+As a **Potential Customer** I would like to be approached with relevant marketing material so I know that the service is not a scam and that I may consider purchasing the holiday packages
 
-## US11:
-As a product owner, I want the relationships manager’s profile change based on the results of their calls so that their profiles reflect their current knowledge and skills. 
-**Estimate:** 
-    5 Story Points
-**Priority :** 
-    Priority : M
-**Acceptance Criteria :**  
->* Relationship Managers are given a score from 1 - 10 based on their performance following each call based on whether they made a sale, the call time, and the rating they receive from the customer. 
->* Relationship manager skills and knowledge are updated after every few weeks to reflect their knowledgebase and demographic more accurately. 
+**Estimate:** 3 Story Points 
 
-## US12: 
-As a product owner, I would like to know what aspects are affecting sales numbers so I can adjust the business strategy accordingly
-**Estimate:** 
-    4 Story Points
-**Priority :** 
-    Priority : L
-**Acceptance Criteria :**  
->* Customers are given a score from 1 - 10 based on their likelihood to purchase a package
->* Relationship Managers are given a score from 1 - 10 based on their performance following each call based on whether they made a sale, the call time, and the rating they receive from the customer. 
->* Scores of customers and employees are visible in the system. 
+**Priority:** S 
 
-## US13:
-As a product owner, I want  a score to tell me how productive a Relationship Manager is at their job so that I can provide them with longer or shorter call lists to make sure all targets are called in the shortest possible time.
-**Estimate:** 
-    3 Story Points
-**Priority :** 
-    Priority : M 
-**Acceptance Criteria :**  
->* Relationship managers are given a score from 1 - 10 based on their skill level in handling customers
->* Relationship manager scores are adjusted after every call based on whether they made a sale, how long the call went for, and how the customer rated the experience following the call. 
->* relationship manager call lists are adjusted for length based on a relationship manager's skill level. 
+**Acceptance Criteria:**
 
-# Call Routing Branch Operator 
+* Outbound customer target lists are generated based on RM skills knowledge. 
+* The target list generated is in the form of a list of tuples of <potential customer, package proposed> 
 
-## US14: 
-As a call routing branch operator , I would like the customers to be greeted with an automated interactive voice system that lets them redirect themselves when lines are particularly busy so that I have a smaller workload. 
-**Estimate:** 
-    5 Story Points
-**Priority :** 
-    Priority : H 
-**Acceptance Criteria :**  
->* When lines are particularly busy (when more than a certain amount of customers are on hold), an incoming call from a customer is greeted with an automatic interactive voice system.
->* Automatic interactive voice system determines whether the customer is calling to enquire about a holiday package or not 
->* Automatic interactive voice system asks customers questions to further build the customer's profile.
->* Automatic interactive voice system redirects customer to soonest available Relationship Manager without needing to pass through the routing branch operator. 
+## US204
+As a **relationship manager** I would like to prioritise serving customers who have a higher likelihood to purchase score so that less time is spent serving customers who are less likely to yield sales. 
+
+**Estimate:** 5 Story Points
+
+**Priority:** M
+
+**Acceptance Criteria:**
+
+* Customers are given likelihood of purchase scores from 1 - 10 based on their region, demographic groups, and previous call and purchase history. 
+* Customers with lower scores are served last when in a queue. 
+
+## US205
+As a **relationship manager** I would like to have a script generated from a customer's profile so that I can follow it when talking to the customer so that can be more personalised for a higher chance of making a sale.
+
+**Estimate:** 3 Story points
+
+**Priority:** C
+
+**Acceptance Criteria:**
+
+* A script which is personalised based on a customer's profile is generated for the RM to read when the call begins. 
+
+## US301
+As the **product owner** I want to be able to update RM profiles so that they can be sorted and matched with customer profiles and packages that are relevant.
+
+**Estimate:** 2 Story Points
+
+**Priority:** M 
+
+**Acceptance Criteria:**
+
+* relationship manager profiles are able to be updated to add new skills, knowledge, and demographic groups. 
+
+## US302
+As the **product owner** I want to have the RM's skill score be automatically updated following their calls, so that I can assess their performance and decide if further training or reward is required. 
+
+**Estimate:** 4 Story Points
+
+**Priority:** M
+
+**Acceptance Criteria:**
+
+* A skill score from 1 - 10 is calculated for an RM based on their average call handling time, and the ratio of their calls taken to sales made. 
+* An RM's skill score is dynamically updated following every call they take. 
+
+## US303
+As a **product owner** I would like to have the system dial numbers automatically for the RM according to a customer target list so that the RMs are able to more efficiently make more calls to outbound customers in a shorter amount of time. 
+
+**Estimate:** 1
+
+**Priority:** C
+
+**Acceptance Criteria:**
+
+* After an outbound call is wrapped up, the system automatically dials the next customer on a target list. 
+
+## US304
+As a **product owner** I would like the system to determine the size of the targeted customer list for an RM's outbound calls based on their skill score so that more skilled RMs can serve more customers in a smaller amount of time. 
+
+**Estimate:** 4 Story Points 
+
+**Priority:** Should
+
+**Acceptance Criteria: **
+
+* A skill score from 1 - 10 is calculated for an RM based on their average call handling time, and the ratio of their calls taken to sales made. 
+* A smaller target list is given to RMs with lower scores
+* A larger target list is given to RMs with higher scores 
+
+
+##US305
+As a **product owner** I would like to have the system match customers based on RM performance and product knowledge
+
+**Estimate:** 5 Story Points
+
+**Priority:** M
+
+**Acceptance Criteria:**
+
+* Holiday Packages that an RM is suitable to pitch can be added to an RM's profile. 
+* The system automatically assigns holiday packages to RMs which have enough relevant skills and knowledge. 
+* The system automatically routes a customer to RMs who are assigned
+* Customer calls are routed to and matched with RMs who have been assigned the same demographic groups as a customer, or have knowledge about packages relevant to a customer's demographic group.
