@@ -147,7 +147,7 @@ As a **product owner** I would like the system to determine the size of the targ
 
 **Priority:** Should
 
-**Acceptance Criteria: **
+**Acceptance Criteria:**
 
 * A skill score from 1 - 10 is calculated for an RM based on their average call handling time, and the ratio of their calls taken to sales made. 
 * A smaller target list is given to RMs with lower scores
