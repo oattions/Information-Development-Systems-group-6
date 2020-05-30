@@ -66,16 +66,16 @@ This example identifies that in the existing system, relationship managers spoke
             
 These are assumptions about the previous system which justify the need for a new improved system 
 
-###Inbound Calls
+### Inbound Calls
 * All inbound calls were met with a human operator  who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. 
 * During busy times customers were put on hold and were not directed to an interactive voice response unit. 
 * Previous inbound calls were not directed to specific RMs and were given to soonest available RM.
 
-###Outbound Calls
+### Outbound Calls
 * Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
 * Previously generated target lists do not take into account customer parameters before being given to an RM.
 
-###General (applies to both current and previous system ) 
+### General (applies to both current and previous system ) 
 * Old system only provided the original hiring questionnaire and did not adjust based on skills. 
 * Skill profiles did not exist , so relationship managers could not be matched with their end customers based on 
 knowledge. 
@@ -84,12 +84,35 @@ knowledge.
 * In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
 * RMs 
 
+
+## System design assumptions for the new system
+* the CMC system automatically updates an RM's score after the call based on if a sale was made, and the total call time.
+* there is a post-call IVR that asks the customer to rate their experience. 
+* The CMC system updates the RM's score again if the customer rated the RM in the post-call IVR 
+* After a call ends, the customer's score is updated based on a predetermined calculation of the call duration, whether the customer purchased a package and their original score. 
+* In a customer's profile, the phone number is the one required attribute. Everything else can be blank and filled out manually by the relationship manager during a call OR if that information is public, assume there is a system that searches the internet based on the customer's phone number and takes data from matching social media profiles. 
+
+
 --
-#System Proposal
+# System Proposal
 
 
-##System models
-                Document your proposed work-products and models
+# #System models
+(hyperlinks to diagrams and work products go here)
 
-##Justifications
-                Discuss the competitive advantages that might be gained in developing the new information system. Identify and disguss the possible adverse effects for this business if its new information system project fails. 
+# Competitive advantages and possible effects if the project fails
+
+With the Call Management Centre (CMC) system, operations for the travel company will be improved significantly due to dynamic flow control for inbound and outbound calls with a greater potential for relationship managers (RMs) to perform and advertise sales of holiday packages. The skill matcher feature for RMs and customers according to RMs skills and customer profile is a strategic tool to attain customer retention for existing customers to experience the best customer service to respond to their needs and become a trusted travel agent for all their future travels. This value of customer loyalty will further lead to word-of-mouth marketing for the travel company where the company can consider a discount in exchange for referrals. Also, the competitiveness of the travel agencies market is forcing its players to strategise and provide the best possible experience for the clients by inspiring trust as the foundation for every sale. The CMC system implements this value with the Profiler Tool and Skill feature to render the effect that the RMs have the clients’ best interest at heart to make convincing sales upon this trust. 
+   
+
+Hence, improved operations by specialisation through the CMC where customer service is improved by learning about the customer and assigning them to the right agent will build trust, foster goodwill and bring customer relations to the next level. 
+
+Rating of the RM from a customer as another feature in the CMC system will be a valuable tool for the managers to evaluate the RMs and ensure that the best values, deals and customer services are provided to the clients. This data will also allow the managers to see the trends within the company which then can be compared to the industry or competitors to make further decisions and strategies to upgrade its operations. 
+
+A score from 1-10 based on the likelihood to purchase the product is given to a customer according to some preloaded criteria at the automatic branch exchange will greatly optimise the company’s productivity. This score is dynamically updated following each customer interaction. A customer with a higher score will be prioritised and have their queue times expedited during busy periods. This will greatly reduce the time handling time spent on calls which do not yield sales. 
+
+Implementation of the call routing and IVR (Interactive Voice Recorder) feature for inbound calls to further reduce operating costs for the company as it removes the need for a routing operator to reroute customers to appropriate RMs. It also provides a way for the customer to remain engaged in the system while being in the queue, hence reducing the likelihood of a customer hanging up before being served. The IVR will ask the customer about which specific package they may be inquiring about so that a more precise decision can be made on the RM to route them to. The aforementioned features of RMs scoring (profiling) and specialisation will allow managers to assess and spot inefficiencies with indications of their strengths and what needs to be improved where there may be opportunities to focus on RMs’ training and coaching. 
+
+The automation of the manual tasks of RMs will minimise their busy time to a significant extent.  Therefore, this will improve agent productivity and customer satisfaction where per-call handling time is decreased where there will be more time allocated for outbound calls to reach potential customers and carry out more effective calls. 
+
+In contrast, if the CMC system fails, there will be inefficiencies for the company where the RMs’ expertise cannot be utilised to its maximum potential leading to the increase with customer’s hold time and thus, diminishing customer satisfaction. If the CMC system fails due to long system response time and low speed and poor telephone connectivity, corresponding problems where functions of scoring and profiling compromised will have detrimental impacts on the travel company. Managers will not be able to see the RMs score and hence, cannot analyse performance and define potential factors that could be improved on resulting in inconsistencies with the customer experience. Clients who deemed the experience as negative will not proceed with their purchases with the company, nor will they refer other potential customers to the company.  
