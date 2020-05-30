@@ -57,16 +57,27 @@
 
 
 ##Assumptions
-                List assumptions you have made in the systems analysis.
->* a Profiler Tool to generate a customer profile already exists and will be utilised by the proposed system.
->* we are assumnig that a a database of all potential customers already exists to be profiled for outbound calls. 
->* We are assuming that the system will automatically readjust an RM's profile based on their performance following each call WITHOUT any human intervention (ie. the system takes raw data, and comes to a conclusion based on that- hence the profile will be adjusted accordingly. )
->* appended to the previous assumption -- the calculation will be a result of  whether a sale was made, the length of the call, and numeric rating values given by the customer following the call (if applicable- we are making an affordance for customers who do not bother rating). 
->* we are assuming that the guidelines and script provided to the RM will be dynamically generated based on the details in the customer's profile. (as opposed to a canned response chosen from a pile  )
->* we are assuming that this system is not responsible for rerouting inbound calls and only deals in data management (collection, display, parsing, etc.)
->* assuming that the estimated call duration will determine the size of an RM's outbound list 
+            
+These are assumptions about the previous system which justify the need for a new improved system 
 
-----
+###Inbound Calls
+>* All inbound calls were met with a human operator  who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. 
+>* During busy times customers were put on hold and were not directed to an interactive voice response unit. 
+>* Previous inbound calls were not directed to specific RMs and were given to soonest available RM.
+
+###Outbound Calls
+>* Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. 
+>* Previously generated target lists do not take into account customer parameters before being given to an RM.
+
+###General 
+>* Old system only provided the original hiring questionnaire and did not adjust based on skills. 
+>* Skill profiles did not exist , so relationship managers could not be matched with their end customers based on knowledge. 
+>* Customers were not given points based on likelihood to purchase. 
+>* RMs were not given a score based on performance.
+
+###Current and  previous assumptions
+>* In the new system : customers who have already been assigned an RM will be given to same RM again each time they call (in the old system they’re just given to any random RM that is available). 
+--
 #System Proposal
 
 
