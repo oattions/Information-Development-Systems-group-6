@@ -167,3 +167,16 @@ As a **product owner** I would like to have the system match customers based on 
 * The system automatically assigns holiday packages to RMs which have enough relevant skills and knowledge. 
 * The system automatically routes a customer to RMs who are assigned
 * Customer calls are routed to and matched with RMs who have been assigned the same demographic groups as a customer, or have knowledge about packages relevant to a customer's demographic group.
+
+## US:306
+As a **customer** I would like to be able to rate or provide feedback on my call experience so that the company knows how to serve me better next time. 
+
+**Estimate:** 3 Story Points
+
+**Priority:** C
+
+**Acceptance Criteria:** 
+
+* Customer is redirected to a post call interactive voice response unit which asks the customer to rate their experience out of 5
+* The post call interactive voice unit asks the customer to leave a short answer feedback on what could be improved in future. 
+* The customer's reply is interpreted and stored in the database for manual review. 
