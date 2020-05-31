@@ -15,9 +15,9 @@
 
                                                                                     	
 
-| Alternate Flow 1    | “Customer does not consent”                                                                                                                          |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Trigger**         | The customer profile is not filled out enough to determine any suitable demographic groups.                                                                |
-| **Step**            | 1. The system finds a relationship manager with a skill score closest in range to the customer’s likelihood to purchase score. <br>2. Rejoin **main flow** at step 4. |
-| **Post-conditions** | A suitable relationship manager is found for the customer.                                       |
-| **Exceptions**      | Exception 1 - Steps 1 - 2 : The database crashes and is not able to retrieve any information.                                                                                                                                                  |
+| Alternate Flow 1 	| “No Demographic Group”                                                                                                                                      	|
+|------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Trigger          	| The customer profile is not filled out enough to determine any suitable demographic groups.                                                                 	|
+| Step             	| 1. The system finds a relationship manager with a skill score closest in range to the customer’s likelihood to purchase score. <br>2. Rejoin **main flow** at step 4. 	|
+| Post-conditions  	| A suitable relationship manager is found for the customer.                                                                                                  	|
+| Exceptions       	| Exception 1 - Steps 1 - 2 : The database crashes and is not able to retrieve any information.                                                               	|
