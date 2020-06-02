@@ -24,6 +24,7 @@ The stakeholders of both the current and the new system are as follows :
 * Travel Company
 
 # 2. Design Thinking<br>
+
 Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories.
 ---
 ## 2.1 How-Might-We(HMW) Statements
