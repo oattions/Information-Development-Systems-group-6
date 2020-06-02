@@ -1,3 +1,9 @@
+# Information Systems Development Project Report In-house Call Management Centre (CMC)<br>
+* **Angela Sun-** 13517964
+* **Hussein Sultani-** 
+* **Melisa Timsina-** 13570217
+* **Paige Tran Nguyen-** 12622268
+
 # 1. Problem Definition
 ---
 ## 1.1 Problem Objectives
@@ -13,16 +19,20 @@ Ultimately, the product owner(s) (managers) will uncover multiple insights to su
 
 The stakeholders of both the current and the new system are as follows : 
 
-* The product owner (call center managers in this case)
+**direct users**
 * Existing and potential customers of the travel company 
 * Relationship managers (both inbound and outbound)
+* Call Rerouting Operators
+* Call center managers<br>
+**product owner**
+* Travel company representative
 
 # 2. Design Thinking
 Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories. 
 ---
 ### 2.1 How-Might-We(HMW) Statements
 
-[See included files]
+(Please refer to ./WorkProducts/Design_Thinking)
 
 ### 2.2 Design Thinking Reflective Statement
 We assumed that the current CMC is inefficient as it matches customers with relationship managers based on availability rather than skills and expertise. 
@@ -79,7 +89,7 @@ All the assumptions made about the operational status of the existing system to 
 * RMs were not given a score based on performance <br>
 
 # 5. Work Products
-[Refer to the included /WorkProducts directory in the submission for this section]
+(Please refer to ./WorkProducts/Key_Use_Case_Diagrams)
 
 # 6. Competitive Advantages 
 ### 6.1 General Competitive Advantages
