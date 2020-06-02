@@ -3,7 +3,7 @@
 **Hussein Sultani** - 13825411 <br>
 **Melissa Temsina** - 13570217<br>
 **Paige Tran Nguyen** - 12622268<br>
-
+[Video Link](PLACEHOLDER)
 
 # 1. Problem Definition
 
