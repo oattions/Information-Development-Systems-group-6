@@ -6,6 +6,8 @@
 
 
 # 1. Problem Definition
+
+
 ---
 ## 1.1 Problem Objectives
 
@@ -20,20 +22,28 @@ Ultimately, the product owner(s) (managers) will uncover multiple insights to su
 
 The stakeholders of both the current and the new system are as follows : 
 
-**users**
+**users**<br>
+
 * The product owner (call center managers in this case)
 * Existing and potential customers of the travel company 
 * Relationship managers (both inbound and outbound)
 * Call routing operator
 * Call center manager
 
-**product owner**
+**product owner**<br>
+
 * Travel Company
 
 # 2. Design Thinking<br>
+<<<<<<< HEAD
+
+Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories.
+
+=======
 ---
 > Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories.
 ---
+>>>>>>> 00567646bf8c83fce95526833e86e97af106f5b0
 ## 2.1 How-Might-We(HMW) Statements
 (please refer to ./WorkProducts/Design_Thinking)
 
