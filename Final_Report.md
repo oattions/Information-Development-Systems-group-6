@@ -1,9 +1,3 @@
-# Information Systems Development Project Report In-house Call Management Centre (CMC)<br>
-* **Angela Sun-** 13517964
-* **Hussein Sultani-** 
-* **Melisa Timsina-** 13570217
-* **Paige Tran Nguyen-** 12622268
-
 # 1. Problem Definition
 ---
 ## 1.1 Problem Objectives
@@ -19,40 +13,23 @@ Ultimately, the product owner(s) (managers) will uncover multiple insights to su
 
 The stakeholders of both the current and the new system are as follows : 
 
-**direct users**
+**users**
+* The product owner (call center managers in this case)
 * Existing and potential customers of the travel company 
 * Relationship managers (both inbound and outbound)
-* Call Rerouting Operators
-* Call center managers<br>
+* Call routing operator
+* Call center manager
+
 **product owner**
-* Travel company representative
+* Travel Company
 
 # 2. Design Thinking
-Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories. 
+Through the use of design thinking principles such as empathy mapping techniques, we were able to create point of view statements which evolved into 'how might we' statements to address all potential pain points that users may have experienced with the existing system. These statements served as the basis for our user stories.
 ---
-### 2.1 How-Might-We(HMW) Statements
-
-(Please refer to ./WorkProducts/Design_Thinking)
-
-### 2.2 Design Thinking Reflective Statement
-We assumed that the current CMC is inefficient as it matches customers with relationship managers based on availability rather than skills and expertise. 
-We also assumed that the previous system had no scoring system, hence, did not prioritise customers with higher likelihoods of purchasing above customers who would otherwise never purchase. This would have been exacerbated by the fact that during busy times, customers were put on hold which would have prompted them to hang up and refrain from using the service again due to the long call handling time. 
+## 2.1 How-Might-We(HMW) Statements
+(please refer to ./WorkProducts/Design_Thinking)
 
 
-Furthermore, it is also assumed that in both the pre-existing and newly proposed system that a customer could be calling the travel company's customer support line for reasons apart from holiday package enquiry. This raises the need for a customer to be redirected to a relationship manager from a call routing branch operator; The workload of whom will be drastically reduced by the proposed interactive voice unit in the new system. 
-
-
-The process of designing the new system utilised 'Point of View' statements which allowed for the close examination of the perspectives of different users. These empathy statements allowed us to identify weaknesses in the existing system, and hence, facilitated the creation of How Might We (HMW) statements, which formed the basis of the User Stories which formed the foundation for the newer, more efficient system. 
-
-
-An example of this process is as follows : 
-> **POV:**  RM: “I wish I didn’t have to waste time calling customers who would’ve never bought a package anyway” 
-
-> **HMW:**  How might we… Let Relationship Managers speak to fewer customers who are less likely to buy a package and more customers who are likely to buy a package. 
-
-> **Resulting User Story:** As a relationship manager I would like customers to be filtered by how likely they are to buy a package so I can waste less time on customers who won’t purchase a package, and spend more time selling packages to customers who will. 
-
-This example identifies that in the existing system, relationship managers spoke to all possible incoming customers instead of customers who had a higher likelihood of purchasing the product, which had resulted in longer, less productive call handling times, which would have greatly impacted the market share of the business.
 
 # 3. Agile Methodology Used
 The process of Design Thinking was firstly used to create assumptions of the existing system to understand the “Why”, “How” and “What” aspects of the travel company and its stakeholders of RMs and customers to understand their needs and solve problems of current inefficiencies of the existing system. Most importantly, the customer-centric approach was also used in the Design Thinking process to define the in-scope items. By journey mapping alongside the given scenario, we were able to brainstorm assumptions and test them to see the feasibility in meeting potential and existing client needs as well as maximising the productivity of RMs to improve overall operations and sales. Assumptions of the previous system which justify the need for a new improved system were based upon inbound calls, outbound calls and general. Empathy maps were applied for the following stakeholders: inbound relationship manager, outbound relationship manager, existing customer, potential customer and product owner. Point of View (POV) statements were formed to develop How Might We (HMW) statements which finally lead to User Stories that were then created into a Prioritised Backlog. 
@@ -74,25 +51,25 @@ Each print would end with Sprint Review after the 8-9th day to examine every pro
 # 4. System Assumptions
 All the assumptions made about the operational status of the existing system to justify the need for a new system. 
 
-### 4.1 Inbound Calls
+## 4.1 Inbound Calls
 * All inbound calls were met with a human operator who asks questions about their parameters ( address, age, sex, etc) and which package they’re interested in before being redirected to an RM operator who will pitch the sale. <br>
 * During busy times customers were put on hold and were not directed to an interactive voice response unit. <br>
 * Previous inbound calls were not directed to specific RMs and were given to soonest available RM.<br>
-### 4.2 Outbound Calls
+## 4.2 Outbound Calls
 * Customer profiles were not taken into account when fielding calls to RMs - customers were not segmented by profile. <br>
 * Previously generated target lists do not take into account customer parameters before being given to an RM. <br>
 * Previous outbound calls were not dialled automatically <br>
-### 4.3 General 
+## 4.3 General 
 * The old system only provided the original hiring questionnaire and did not adjust based on skills. <br>
 * Skill profiles did not exist, so relationship managers could not be matched with their end customers based on knowledge.<br>
 * Customers were not given points based on likelihood to purchase <br>
 * RMs were not given a score based on performance <br>
 
 # 5. Work Products
-(Please refer to ./WorkProducts/Key_Use_Case_Diagrams)
+(please refer to ./WorkProducts/Key_Use_Case_Diagrams)
 
 # 6. Competitive Advantages 
-### 6.1 General Competitive Advantages
+## 6.1 General Competitive Advantages
 With the Call Management Centre (CMC) system, operations for the travel company will be improved significantly due to dynamic flow control for inbound and outbound calls with a greater potential for relationship managers (RMs) to perform and advertise sales of holiday packages. The skill matcher feature for RMs and customers according to RMs skills and customer profile is a strategic tool to attain customer retention for existing customers to experience the best customer service to respond to their needs and become a trusted travel agent for all their future travels. This value of customer loyalty will further lead to word-of-mouth marketing for the travel company where the company can consider a discount in exchange for referrals. Also, the competitiveness of the travel agencies market is forcing its players to strategise and provide the best possible experience for the clients by inspiring trust as the foundation for every sale. The CMC system implements this value with the Profiler Tool and Skill feature to render the effect that the RMs have the clients’ best interest at heart to make convincing sales upon this trust. 
    
 
@@ -106,5 +83,5 @@ Implementation of the call routing and IVR (Interactive Voice Recorder) feature 
 
 The automation of the manual tasks of RMs will minimise their busy time to a significant extent.  Therefore, this will improve agent productivity and customer satisfaction where per-call handling time is decreased where there will be more time allocated for outbound calls to reach potential customers and carry out more effective calls. 
 
-### 6.2 Effect if Project Fails 
+## 6.2 Effect if Project Fails 
 In contrast, if the CMC system fails, there will be inefficiencies for the company where the RMs’ expertise cannot be utilised to its maximum potential leading to the increase with customer’s hold time and thus, diminishing customer satisfaction. If the CMC system fails due to long system response time and low speed and poor telephone connectivity, corresponding problems where functions of scoring and profiling compromised will have detrimental impacts on the travel company. Managers will not be able to see the RMs score and hence, cannot analyse performance and define potential factors that could be improved on resulting in inconsistencies with the customer experience. Clients who deemed the experience as negative will not proceed with their purchases with the company, nor will they refer other potential customers to the company.  
